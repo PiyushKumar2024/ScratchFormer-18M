@@ -1,0 +1,36 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# PyTorch Model Checkpoints & Weights
+*.pth
+*.pt
+*.ckpt
+best_model.pth
+transformer_model.pth
+checkpoint_*.pth
+
+# Dataset Files (Allowed to be uploaded as per your request)
+# datasets/
+# dataset.txt
+# *.txt
+
+# Tokenizer Output (can be easily regenerated)
+tokenizer/
+vocab.json
+merges.txt
+meta.json
+
+# VS Code / IDEs
+.vscode/
+.idea/
+*.swp
+
+# Virtual Environments
+venv/
+env/
+.env
+
+# MacOS hidden files
+.DS_Store
