@@ -153,7 +153,7 @@ This architecture and training pipeline was built upon the shoulders of foundati
 
 **Foundational Research Papers:**
 - [Attention Is All You Need](https://arxiv.org/abs/1706.03762) (Vaswani et al., 2017) - The definitive paper introducing the Transformer architecture, Multi-Head Attention, and Positional Encodings.
-- [Dropout: A Simple Way to Prevent Neural Networks from Overfitting](https://www.cs.toronto.edu/~rsalakhu/papers/srivastava14a.pdf) (Srivastava et al., 2014) - The mathematical basis for the regularization technique used extensively throughout our blocks.
+- [Dropout: A Simple Way to Prevent Neural Networks from Overfitting](https://jmlr.org/papers/v15/srivastava14a.html) (Srivastava et al., 2014) - The mathematical basis for the regularization technique used extensively throughout our blocks.
 - [Layer Normalization](https://arxiv.org/abs/1607.06450) (Ba et al., 2016) - The stabilization technique used before the Attention and Feed-Forward sub-layers.
 - [Neural Machine Translation of Rare Words with Subword Units](https://arxiv.org/abs/1508.07909) (Sennrich et al., 2015) - The origin of Byte-Pair Encoding (BPE), which powers our custom tokenizer.
 

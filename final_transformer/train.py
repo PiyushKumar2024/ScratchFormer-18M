@@ -36,7 +36,7 @@ SPECIAL_TOKEN = "<|endoftext|>"
 
 tokenizer = ByteLevelBPETokenizer()
 tokenizer.train_from_iterator(
-    [textData],                       # training corpus
+    [textData],                       # training data
     vocab_size=vocab_size_limit,      # maximum vocabulary size
     min_frequency=min_frequency,      # minimum token frequency to keep
     special_tokens=[SPECIAL_TOKEN],   # end-of-text marker
