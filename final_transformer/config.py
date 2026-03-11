@@ -1,5 +1,5 @@
 """
-config.py — All hyperparameters and settings in one place.
+All hyperparameters and settings
 """
 import torch
 

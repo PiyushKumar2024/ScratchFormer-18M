@@ -30,7 +30,7 @@ parser.add_argument("--model",       type=str, default=model_save_path, help="Pa
 args = parser.parse_args()
 
 
-# ========================== Load Tokeniser ===============================
+# Load Tokeniser
 tokenizer_dir = "tokenizer"
 SPECIAL_TOKEN = "<|endoftext|>"
 

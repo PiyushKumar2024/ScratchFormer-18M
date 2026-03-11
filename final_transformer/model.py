@@ -1,5 +1,5 @@
 """
-model.py — Transformer-based Language Model architecture.
+Transformer-based Language Model architecture with multiheaded self attention,ffn, and residual connections.
 """
 import torch
 import torch.nn as nn

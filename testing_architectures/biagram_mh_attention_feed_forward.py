@@ -1,4 +1,4 @@
-"""Will struggle with vanishing gradients"""
+"""Will struggle with vanishing gradients thereform norm and residual in later"""
 import torch
 import torch.nn as nn
 from torch.nn import functional as F

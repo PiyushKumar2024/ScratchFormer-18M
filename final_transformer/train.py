@@ -32,7 +32,7 @@ print(f"[INFO] Dataset length: {len(textData):,} characters")
 # ByteLevelBPETokenizer from HuggingFace tokenizers library.
 # It learns sub-word merges directly from the data, giving a compact
 # vocabulary while still being able to represent any byte sequence.
-SPECIAL_TOKEN = "<|endoftext|>"
+SPECIAL_TOKEN = "<|endoftext|>" #can also be used for start
 
 tokenizer = ByteLevelBPETokenizer()
 tokenizer.train_from_iterator(

@@ -1,3 +1,4 @@
+"""Just some jibberish spiltting model(wont even make words)"""
 import torch
 import torch.nn as nn
 from torch.nn import functional as F

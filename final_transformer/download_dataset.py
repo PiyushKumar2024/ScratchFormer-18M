@@ -1,8 +1,5 @@
 """
-download_dataset.py — Downloads and cleans Wikipedia articles for training.
-Usage:
-    pip install datasets
-    python download_dataset.py
+download_dataset.py —Downloads and cleans Wikipedia articles for training.
 """
 import re
 

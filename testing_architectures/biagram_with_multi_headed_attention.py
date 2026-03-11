@@ -1,4 +1,4 @@
-"""Will not work as intended as there is no feed forward network to let them think"""
+"""Will not work as intended as there is no feed forward network to let them think(they need layers)"""
 import torch
 import torch.nn as nn
 from torch.nn import functional as F
